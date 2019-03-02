@@ -4,6 +4,8 @@ board = [" "," "," "," "," "," "," "," "," "]
 
 board[0] = "x"
 
+board[2] = "o"
+
 def tix_tac_toe(board)
 puts " #{board[0]} | #{board[1]} | #{board[2]} "
 puts "-----------"

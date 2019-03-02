@@ -1,8 +1,8 @@
 # Define display_board that accepts a board and prints
 # out the current state.
-board[0] = "x"
-
 board = [" "," "," "," "," "," "," "," "," "]
+
+board[0] = "x"
 
 def tix_tac_toe(board)
 puts " #{board[0]} | #{board[1]} | #{board[2]} "

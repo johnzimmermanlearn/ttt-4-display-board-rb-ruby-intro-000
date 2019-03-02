@@ -2,11 +2,7 @@
 # out the current state.
 board = [" "," "," "," "," "," "," "," "," "]
 
-board[0] = "x"
-
-board[2] = "o"
-
-def tix_tac_toe(board)
+def display_board(board)
 puts " #{board[0]} | #{board[1]} | #{board[2]} "
 puts "-----------"
 puts " #{board[3]} | #{board[4]} | #{board[5]} "
@@ -14,4 +10,4 @@ puts "-----------"
 puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-tix_tac_toe(board)
+display_board(board)
